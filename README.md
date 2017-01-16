@@ -4,5 +4,5 @@ Solved puzzles from the HackFortress event @Shmoocon 2017
 
 To fire this up just run
 ```
-npm i && node app.js
+cd steal_deathstar_plans && npm i && node app.js
 ```
