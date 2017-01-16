@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'aurebesh';
+    src: url('fonts/Aurebesh.woff2') format('woff2'),
+         url('fonts/Aurebesh.woff') format('woff'),
+         url('fonts/Aurebesh.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+select,
+option,
+button,
+p {
+  font-family: "aurebesh";
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+select,
+option,
+button[type="submit"] {
+  color: black;
+}
+
+.submit {
+  padding: 10px;
+}
+
+.top {
+  margin: 20%;
+}
